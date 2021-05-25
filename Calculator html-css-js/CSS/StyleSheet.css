@@ -1,0 +1,88 @@
+﻿
+html {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    
+}
+
+section {
+    background: linear-gradient(to right,#d537fd,#3d26ec);
+    min-height:100vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.container {
+    width: 90%;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, .75);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.display {
+    background-color: rgb(165,165,165);
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+    font-size: 30px;
+    position: relative;
+    
+}
+.display-1 {
+    opacity: .4;
+    font-size: 30px;
+    height: 20px;
+    padding-right:40px;
+    
+}
+.display-2 {
+    
+    font-size: 40px;
+    padding-right:40px;
+    padding-top:20px;
+    
+}
+  
+
+
+.temp-result{
+    position:absolute;
+    bottom:0;
+    left:10px;
+    font-size:20px;
+    opacity: .8;
+}
+
+.all-buttons{
+    color: whitesmoke;
+    display:grid;
+    grid-template: repeat(4,1fr) /repeat(4,1fr)
+}
+.button {
+    border: .5px solid rgba(92,92,92, 0.137);
+    display:inline-block;
+    height: 100px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    font-size:30px;
+    cursor:pointer;
+}
+    .button:hover {
+        background-color: rgb(30,43,46);
+    }
+
+    .btn-0{
+        grid-column:1/3;
+    }
